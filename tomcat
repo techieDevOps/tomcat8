@@ -1,0 +1,5 @@
+FROM tomcat:8-alpine
+
+CMD mkdir /usr/local/tomcat/webapps/demo
+COPY index.html /usr/local/tomcat/webapps
+
